@@ -1,0 +1,23 @@
+$margin: 5%;
+
+%space {
+  margin-top: $margin;
+  
+}
+textarea {
+  height: 450px;
+  margin-bottom: $margin;
+  @extend %space;
+}
+
+
+#mark {
+  margin-left: $margin;  
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 990px) {
+  textarea {
+    width: 100%;
+  }
+}
